@@ -1,70 +1,32 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Following are the points on which candidate will be judged:-
+1. The UI should be pixel perfect.
+2. Basic functionality described below for select employee dropdown and Date pickershould
+be there.
+3. Code needs to be written only with reactJS.
+4. At the time of submission with the GIT link. Deploy the app on firebase and submit the
+firebase link as well.
 
-## Available Scripts
+## Basic functionality:-
+ For employee :
+1. Perform CRUD Operation of Employee as on above figma link.
+2. To add : https://sweede.app/DeliveryBoy/Add-Employee/
+3. To get : https://sweede.app/DeliveryBoy/Get-Employee/
+4. To update : https://sweede.app/DeliveryBoy/update-Employee/<int:id> 
+5. To delete : https://sweede.app/DeliveryBoy/delete-Employee/<int:id> 
+note: replace <int:id> with id and get the Field by using get api
 
-In the project directory, you can run:
+## For employee dropdown:-
+1. Hovering on the dropdown icon will be a pointer.
+2. On click dropdown will open with the UI as per in figma.
+3. Data in the dropdown will be passed in the form of JSON.
+4. When clicked on a parent category all checkbox it should select all the sub items and vice
+versa.
+5. Count in top dropdown should be based on the data provided.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## For date picker:-
+1. Hovering on the dropdown icon will be a pointer.
+2. On click dropdown will open with the UI as per in figma.
+3. Selected date should be visible in the text box once selected

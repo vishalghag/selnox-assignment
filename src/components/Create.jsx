@@ -29,7 +29,6 @@ const Create = () => {
         CurrentSalary:salaryName,
         Description:descriptionName
     }
-    console.log(data)
     axios.post("https://sweede.app/DeliveryBoy/Add-Employee/",data)
     .then(() => navigate('/read'))
   }

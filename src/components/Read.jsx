@@ -35,12 +35,8 @@ const Read = () => {
             localStorage.setItem("StartDate",StartDate)
             localStorage.setItem("EndDate",EndDate)
             localStorage.setItem("Description",Description)
-            console.log("edit handler");
             navigate('/update')
   }
-
-
-  console.log(employeeData, 'employeeData');
 
   return (
     <>

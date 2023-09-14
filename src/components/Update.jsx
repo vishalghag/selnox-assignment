@@ -32,8 +32,6 @@ const Update = () => {
       Description: description,
     };
   
-    console.log(data, 'data');
-  
     // Set the appropriate headers to indicate that this is a JSON request.
     const headers = {
       'Content-Type': 'application/json',
