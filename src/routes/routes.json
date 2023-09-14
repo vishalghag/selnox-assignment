@@ -1,0 +1,6 @@
+{
+    "Home":"/",
+    "UPDATE":"/update",
+    "READ":"/read",
+    "ERROR":"*"
+}
